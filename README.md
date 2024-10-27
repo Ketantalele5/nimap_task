@@ -38,3 +38,6 @@ This project is a Spring Boot application designed for managing categories and p
 2. Navigate to the project directory.
 3. Run the application using your IDE or by executing `mvn spring-boot:run`.
 4. Ensure your MySQL database is running and configured as specified above.
+
+## Conclusion
+This project showcases the effective use of Spring Boot for managing categories and products with robust CRUD operations, a well-defined one-to-many relationship, and server-side pagination. Feel free to contribute or reach out with questions!
