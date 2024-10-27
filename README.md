@@ -22,16 +22,25 @@ This project is a Spring Boot application designed for managing categories and p
 
 ## API Endpoints
 ### Categories
-- `GET /api/categories` - Retrieve all categories
+- `GET /api/categories` - Retrieve all categories and GET category by Id
+  http://localhost:8080/api/categories?page=3
+   http://localhost:8080/api/categories/{di}
 - `POST /api/categories` - Create a new category
+  http://localhost:8080/api/categories
 - `PUT /api/categories/{id}` - Update an existing category
+  http://localhost:8080/api/categories/{di}
 - `DELETE /api/categories/{id}` - Delete a category
-
+  	http://localhost:8080/api/categories/{di}
 ### Products
-- `GET /api/products` - Retrieve all products
+- `GET /api/products` - Retrieve all products and GET product by Id
+  http://localhost:8080/api/products?page=2
+  http://localhost:8080/api/products/{di}
 - `POST /api/products` - Create a new product
+  http://localhost:8080/api/products
 - `PUT /api/products/{id}` - Update an existing product
+  http://localhost:8080/api/products/{di}
 - `DELETE /api/products/{id}` - Delete a product
+  http://localhost:8080/api/products/{di}
 
 ## How to Run the Project
 1. Clone the repository: `git clone git@github.com:Ketantalele5/nimap_task.git`
