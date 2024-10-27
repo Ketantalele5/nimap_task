@@ -38,9 +38,3 @@ This project is a Spring Boot application designed for managing categories and p
 2. Navigate to the project directory.
 3. Run the application using your IDE or by executing `mvn spring-boot:run`.
 4. Ensure your MySQL database is running and configured as specified above.
-
-## Contribution
-Feel free to fork the repository and submit pull requests.
-
-## License
-This project is licensed under the MIT License.
